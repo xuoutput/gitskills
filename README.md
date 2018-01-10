@@ -4,3 +4,7 @@ add merge
 
 wandan  zhe
 ##this is markdown format
+
+
+##install yarn and parcel
+instead of using npm and webpack
