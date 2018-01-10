@@ -3,8 +3,8 @@ Creating a new branch is quick & simple.
 add merge
 
 wandan  zhe
-##this is markdown format
+## this is markdown format
 
 
-##install yarn and parcel
+## install yarn and parcel
 instead of using npm and webpack
