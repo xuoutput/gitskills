@@ -14,3 +14,6 @@ instead of using npm and webpack
 > [深入浅出 Webpack](http://webpack.wuhaolin.cn/)
 
 ## PWA?
+
+
+## webpack+es6+vue2
