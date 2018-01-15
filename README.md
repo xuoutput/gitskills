@@ -20,3 +20,7 @@ instead of using npm and webpack
 
 
 ## pat lintcode leetcode
+
+## using hexo
+
+> fail to put the blog on git, still 404
