@@ -26,3 +26,6 @@ instead of using npm and webpack
 > fail to put the blog on git, still 404
 
 ## git command
+
+
+## 
