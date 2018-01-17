@@ -28,4 +28,4 @@ instead of using npm and webpack
 ## git command
 
 
-## 
+## 可以写个关于chrome插件的博客水一下
