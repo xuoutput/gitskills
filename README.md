@@ -45,3 +45,5 @@ instead of using npm and webpack
 ## 开始刷题PAT
 
 ## nodejs es6
+
+## vue2
