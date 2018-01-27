@@ -47,3 +47,5 @@ instead of using npm and webpack
 ## nodejs es6
 
 ## vue2
+
+## python
