@@ -49,3 +49,5 @@ instead of using npm and webpack
 ## vue2
 
 ## python
+
+## vue-router and vuex
