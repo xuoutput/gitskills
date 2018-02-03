@@ -50,4 +50,6 @@ instead of using npm and webpack
 
 ## python
 
+## vue基础回顾了一遍
+
 ## vue-router and vuex
