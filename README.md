@@ -57,3 +57,5 @@ instead of using npm and webpack
 ## vue 进阶
 
 ## vue demo
+
+## vue-cli 跑一下例子 
