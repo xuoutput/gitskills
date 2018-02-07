@@ -59,3 +59,5 @@ instead of using npm and webpack
 ## vue demo
 
 ## vue-cli 跑一下例子 
+
+## vueCnodeJS是个好例子
