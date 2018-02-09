@@ -64,4 +64,7 @@ instead of using npm and webpack
 
 ## 视频知识
 
-## potplayer修改
+## potplayer修改 这个有个单独的madvr文件
+
+## vuex 分离 es5 常量
+actions只有commit到mutations上  mutations才是改变state的唯一途径
