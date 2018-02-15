@@ -76,3 +76,5 @@ actions只有commit到mutations上  mutations才是改变state的唯一途径
 ## ubuntu 梅花
 
 ## 抢红包
+
+## 跨
