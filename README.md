@@ -98,3 +98,5 @@ actions只有commit到mutations上  mutations才是改变state的唯一途径
 ## 刷题PAT
 
 ## 离散数学好烦啊
+
+## 高软&多媒体
