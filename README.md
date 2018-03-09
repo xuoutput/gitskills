@@ -114,3 +114,5 @@ actions只有commit到mutations上  mutations才是改变state的唯一途径
 ##  fastclick font-awnsome simplemde marked highlight.js mongoose md5 moment lru-cache require-dir
 
 ## 看懂代码吧 
+
+## node模块 http fs quertString url 
