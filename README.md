@@ -120,3 +120,5 @@ actions只有commit到mutations上  mutations才是改变state的唯一途径
 ## 复习js
 
 ## 准备resume
+
+## 中期资料
