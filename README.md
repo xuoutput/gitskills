@@ -146,3 +146,5 @@ actions只有commit到mutations上  mutations才是改变state的唯一途径
 ## blue
 
 ## flex真好用
+
+## 用vue axios显示数据
