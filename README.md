@@ -160,3 +160,6 @@ actions只有commit到mutations上  mutations才是改变state的唯一途径
 ## loading完成 完成首页tab分类
 
 ## 昨天一直没哟请求成功是因为我的下拉框value写成valut了  然后报错的err信息再network 的preview中可以看到  不要到时候catch一个err  具体点到
+
+## 关于vuejs社区没哟修改主题的API接口,可以利用原来查看主题详情来判断  里面有个loginname  显示有没有编辑和删除按钮,然后点击编辑跳转到 新建主题页面,把原来的主题内容get过来 填入 这不就达到了  修改, 之后在post过去,只不过即使在body中带了 topic_id 还是会新建一个topic,这个有问题 
+
