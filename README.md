@@ -158,3 +158,5 @@ actions只有commit到mutations上  mutations才是改变state的唯一途径
 ## 分页问题是因为page用了函数里面的 没有改动vue对象的page,而axios的是vue对象的page 所以 一直出问题,现在好了 就剩下loading效果
 
 ## loading完成 完成首页tab分类
+
+## 昨天一直没哟请求成功是因为我的下拉框value写成valut了  然后报错的err信息再network 的preview中可以看到  不要到时候catch一个err  具体点到
