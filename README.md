@@ -165,3 +165,4 @@ actions只有commit到mutations上  mutations才是改变state的唯一途径
 
 ## 还是借用cnode的编辑接口样式呗 同理设置个删除的
 
+## 新建了一个删除主题的api 然后做了个confirm
