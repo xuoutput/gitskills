@@ -172,3 +172,5 @@ actions只有commit到mutations上  mutations才是改变state的唯一途径
 ## 收藏主题 也没开始
 
 ## 主题收藏用到 3个api 一个加入一个取消收藏,还有一个是本用户详情中有collect_topics  .每次比较本用户收藏的主题中和当前主题id是否一致
+
+## 如何保证异步和同步顺序  当然vuex可以
