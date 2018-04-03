@@ -176,3 +176,5 @@ actions只有commit到mutations上  mutations才是改变state的唯一途径
 ## 如何保证异步和同步顺序  当然vuex可以
 
 ## AI报告 离散作业
+
+## 将API接口单独抽离出来
