@@ -184,3 +184,5 @@ actions只有commit到mutations上  mutations才是改变state的唯一途径
 ## 完全没搞明白RAP2这个接口工具怎么get post到一个interface
 
 ## 浙江执御
+
+## AI captcha
