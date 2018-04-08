@@ -190,3 +190,5 @@ actions只有commit到mutations上  mutations才是改变state的唯一途径
 ## vue koa2中router restfull接口
 
 ## 成功用mongoose连上mongodb并且可以使用post来传入数据并存入. 有要注意各是 find和findone区别,前者返回对象数组,后者就是一个对象,并且后者doc一条,若是用doc.username会造成对null对象使用无效property的错误. 直接用if(doc)来判断callback中这条记录是否存在于数据库中.
+
+## save完后 并不能返回所需要的数据data 用了await也不行 应该哪里有问题
