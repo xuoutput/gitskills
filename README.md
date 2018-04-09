@@ -245,3 +245,6 @@ actions只有commit到mutations上  mutations才是改变state的唯一途径
 
     } 
 ```
+
+
+## 完成用户的signout和signin还差 完善信息和改密码
