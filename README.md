@@ -192,3 +192,56 @@ actions只有commit到mutations上  mutations才是改变state的唯一途径
 ## 成功用mongoose连上mongodb并且可以使用post来传入数据并存入. 有要注意各是 find和findone区别,前者返回对象数组,后者就是一个对象,并且后者doc一条,若是用doc.username会造成对null对象使用无效property的错误. 直接用if(doc)来判断callback中这条记录是否存在于数据库中.
 
 ## save完后 并不能返回所需要的数据data 用了await也不行 应该哪里有问题
+
+## 首先还是先findone,这个和写入的值+save不冲突,所以分开写好了,其次是callback, 当然先要await,然后callback中不要写返回值, 拿出去写就没问题了 正常返回
+
+```
+    postSignout: async (name, pwd) => {
+        let data 
+
+        //  先find下 有没有 还是用findone好了,没找到就报错,找到了else. 这里报错原因找到了,见下面doc.name
+        var user =  await User.findOne({username: name}, function (err, doc) {
+            if (err) {
+                return console.error(err)
+            } 
+            // 首先是null没找到哦啊, 这样才能存入新的
+            console.log('doc='+doc)
+        })
+        console.log('user='+user);
+        console.log('name='+name);
+        console.log('pwd='+pwd);
+        if (!user) {
+            var userInfo = new User({
+                username: name,
+                password: pwd
+            })                           
+            // doc.save(function (err, doc) {  同理用了doc报错哦,而且存的是userInfo而不是doc
+            await userInfo.save(function (err, userInfo) {
+                if (err) {return console.err(err)}
+                //  问题 写是肯定写入数据库了 但就是 设置一个返回值 没有返回  应该是异步操作的问题,访问数据库慢啊
+                // 把return放出去就可以正常返回了
+                // return data = {
+                //     status: 1,
+                //     data: {
+                //         success: true
+                //     }                        
+                // } 
+            })                
+            return data = {
+                status: 1,
+                data: {
+                    success: true
+                }                        
+            } 
+        } else {
+            return data = {
+                status: 0,
+                data: {
+                    success: false                
+                }
+            }
+        }
+       
+
+    } 
+```
