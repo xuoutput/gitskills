@@ -250,3 +250,5 @@ actions只有commit到mutations上  mutations才是改变state的唯一途径
 ## 完成用户的signout和signin还差 完善信息和改密码
 
 ## 完成了修改密码的post
+
+## 完成vue-cnode的build 用了nginx, tensorboard更新使用配套的TensorFlow1.3+ 用pip3 install --upgrade tensorflow
