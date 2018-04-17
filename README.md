@@ -256,3 +256,5 @@ actions只有commit到mutations上  mutations才是改变state的唯一途径
 ## 前端面经初步整理
 
 ## 算法
+
+## 做一个可视化数据结构??  AI数据分析 个人博客
