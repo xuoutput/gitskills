@@ -264,3 +264,5 @@ actions只有commit到mutations上  mutations才是改变state的唯一途径
 ## 凉 express+mongodb做restfull接口
 
 ## linux ubuntu上安装软件3种方法
+
+## 转投linux上编程
