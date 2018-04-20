@@ -266,3 +266,5 @@ actions只有commit到mutations上  mutations才是改变state的唯一途径
 ## linux ubuntu上安装软件3种方法
 
 ## 转投linux上编程
+
+## linux命令 export 
