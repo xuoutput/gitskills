@@ -270,3 +270,5 @@ actions只有commit到mutations上  mutations才是改变state的唯一途径
 ## linux命令 export 
 
 ## 多媒体复习完 linux第二章完
+
+## 做个思维导图吧
