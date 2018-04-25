@@ -274,3 +274,5 @@ actions只有commit到mutations上  mutations才是改变state的唯一途径
 ## 做个思维导图吧
 
 ## 离散
+
+## javascript shell vim
