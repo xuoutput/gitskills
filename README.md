@@ -277,3 +277,5 @@ actions只有commit到mutations上  mutations才是改变state的唯一途径
 
 ## javascript shell vim
 ## javascript数据结构
+
+## js第3章整理
