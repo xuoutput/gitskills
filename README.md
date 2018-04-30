@@ -281,3 +281,5 @@ actions只有commit到mutations上  mutations才是改变state的唯一途径
 ## js第3章整理
 
 ## js 4 5章
+
+## js 整理 剑指offer
