@@ -292,3 +292,4 @@ actions只有commit到mutations上  mutations才是改变state的唯一途径
 
 ## 面试tradeshift 和 zoom
 ## 碧格网 大禹? 麦科田
+## madcaptian 意向
