@@ -305,3 +305,4 @@ actions只有commit到mutations上  mutations才是改变state的唯一途径
 ## es6 nodejs 
 
 ## es6 let const 块级作用域 set map 函数 箭头函数 |  promise class
+## es6 js6 OO和继承
