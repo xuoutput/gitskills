@@ -319,4 +319,4 @@ actions只有commit到mutations上  mutations才是改变state的唯一途径
 ## discrete
 ## js刷题 Go
 ## go
-
+## 刷完题 然后接着搞 先搭好环境
