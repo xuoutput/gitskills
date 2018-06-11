@@ -324,4 +324,5 @@ actions只有commit到mutations上  mutations才是改变state的唯一途径
 ## es6 module ubuntu 18.04安装
 ## ubuntu18.04放弃了
 ## manjaro
-## pacman
+## pacmam
+## 7  
