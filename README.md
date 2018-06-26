@@ -340,3 +340,4 @@ actions只有commit到mutations上  mutations才是改变state的唯一途径
 ## 导论
 ## 结题文档
 ## discrete
+## compile 8 discrete 6
