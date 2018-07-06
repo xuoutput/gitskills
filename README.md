@@ -350,3 +350,4 @@ actions只有commit到mutations上  mutations才是改变state的唯一途径
 ## kde配置好
 ## 编译
 ## 编译看完
+## 搜狗拼音搞定
