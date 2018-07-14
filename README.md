@@ -348,7 +348,7 @@ actions只有commit到mutations上  mutations才是改变state的唯一途径
 ##  图解git learninggitbranch
 ## 离散考完  KDE基本有些掌握, git的 learninggitbranch
 ## kde配置好
-## 编译
+##  编译
 ## 编译看完
 ## 搜狗拼音搞定
 ## gg
@@ -356,3 +356,4 @@ actions只有commit到mutations上  mutations才是改变state的唯一途径
 ## 考完
 ## 66
 ## 房子看完
+## 回家咯
